@@ -1,0 +1,26 @@
+rofi.font: Overpass Regular 16
+rofi.lines: 4
+rofi.width: 28
+rofi.bw: 3
+rofi.padding: 6
+rofi.show-icons: true
+rofi.drun-icon-theme: /usr/share/icons/Numix-Square
+
+##########
+# COLORS #
+##########
+
+# rofi.theme: /usr/share/rofi/themes/base16-tomorrow-night-eighties.rasi
+
+rofi.color-enabled: true
+
+! Property Name     BG       Border   Separator
+rofi.color-window:  #393939, #2F343F, #2d2d2d
+
+! Property Name     BG       FG       BG-alt   Head-BG  Head-FG
+rofi.color-normal:  #393939, #cccccc, #393939, #393939, #ffffff
+rofi.color-active:  #393939, #6699cc, #393939, #393939, #6699cc
+rofi.color-urgent:  #393939, #f2777a, #393939, #393939, #f2777a
+
+! Set the desired separator style
+rofi.separator-style: solid
