@@ -1,0 +1,10 @@
+{
+    "workbench.statusBar.feedback.visible": false,
+    "window.zoomLevel": -0.5,
+    "editor.fontSize": 14,
+    "markdown.preview.fontSize": 16,
+    "terminal.integrated.fontSize": 14,
+    "workbench.colorTheme": "Palenight Theme",
+    "workbench.iconTheme": "material-icon-theme",
+    "editor.renderWhitespace": "all"
+}
