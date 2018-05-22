@@ -1,10 +1,29 @@
 {
-    "workbench.statusBar.feedback.visible": false,
-    "window.zoomLevel": -0.5,
+    // Editor settings (aesthetic)
+    "window.zoomLevel": -0.1,
+    "editor.fontFamily": "'Hack', 'Droid Sans Mono', 'monospace'",
     "editor.fontSize": 14,
+    "terminal.integrated.fontFamily": "'Meslo LG S', 'Menlo', 'Hack', 'Droid Sans Mono', monospace",
+    "terminal.integrated.fontSize": 12,
     "markdown.preview.fontSize": 16,
-    "terminal.integrated.fontSize": 14,
-    "workbench.colorTheme": "Palenight Theme",
+    "workbench.colorTheme": "Tomorrow Night Eighties",
     "workbench.iconTheme": "material-icon-theme",
-    "editor.renderWhitespace": "all"
+    "workbench.statusBar.feedback.visible": false,
+    "editor.renderWhitespace": "boundary",
+
+    // Editor settings (functional)
+    "files.trimFinalNewlines": true,
+    "files.insertFinalNewline": true,
+
+    // Language-specific settings
+    "beautify.tabSize": 2, // Applies to CSS, SASS, LESS
+    "[html]": {
+        "editor.tabSize": 2,
+    },
+    "[css]": {
+        "editor.tabSize": 2,
+    },
+    "[python]": {
+        "editor.rulers": [72, 80],
+    },
 }
