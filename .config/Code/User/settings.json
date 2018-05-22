@@ -1,4 +1,8 @@
 {
+    // Editor settings (functional)
+    "files.trimFinalNewlines": true,
+    "files.insertFinalNewline": true,
+
     // Editor settings (aesthetic)
     "window.zoomLevel": -0.1,
     "editor.fontFamily": "'Hack', 'Droid Sans Mono', 'monospace'",
@@ -6,14 +10,33 @@
     "terminal.integrated.fontFamily": "'Meslo LG S', 'Menlo', 'Hack', 'Droid Sans Mono', monospace",
     "terminal.integrated.fontSize": 12,
     "markdown.preview.fontSize": 16,
-    "workbench.colorTheme": "Tomorrow Night Eighties",
+    "workbench.colorTheme": "Oceanic Next (dimmed bg)",
     "workbench.iconTheme": "material-icon-theme",
     "workbench.statusBar.feedback.visible": false,
     "editor.renderWhitespace": "boundary",
+    
 
-    // Editor settings (functional)
-    "files.trimFinalNewlines": true,
-    "files.insertFinalNewline": true,
+    // Color theme mods
+    "workbench.colorCustomizations": {
+        "[Tomorrow Night Eighties]": {
+            "statusBar.background": "#393939",
+            "tab.activeBackground": "#393939",
+            "tab.inactiveBackground": "#2d2d2d"
+        },
+        "[Tomorrow Night]": {
+            "statusBar.background": "#282a2e",
+        },
+        "[Tomorrow Night Bright]": {
+            "statusBar.background": "#2a2a2a",
+        },
+        "[Oceanic Next (dimmed bg)]": {
+            "editor.background": "#282c34",
+            "activityBar.background": "#20232a",
+            "statusBar.background": "#20232a",
+            "input.background": "#20232a",
+            "tab.inactiveBackground": "#20232a"
+        },
+    },
 
     // Language-specific settings
     "beautify.tabSize": 2, // Applies to CSS, SASS, LESS
@@ -26,4 +49,5 @@
     "[python]": {
         "editor.rulers": [72, 80],
     },
+
 }
