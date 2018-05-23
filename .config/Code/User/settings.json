@@ -14,7 +14,6 @@
     "workbench.iconTheme": "material-icon-theme",
     "workbench.statusBar.feedback.visible": false,
     "editor.renderWhitespace": "boundary",
-    
 
     // Color theme mods
     "workbench.colorCustomizations": {
@@ -49,5 +48,6 @@
     "[python]": {
         "editor.rulers": [72, 80],
     },
+    "git.autofetch": true,
 
 }
